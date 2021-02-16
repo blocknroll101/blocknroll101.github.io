@@ -12,31 +12,48 @@
       Credits to https://github.com/tailwindtoolbox/Landing-Page for the basic template of this site.
     -->
   </head>
-  <body class="leading-normal tracking-normal bnr-fg-yellow bnr-bg-darkblue" style="font-family: 'Source Sans Pro', sans-serif;">
+  <body class="flex flex-col h-screen leading-normal tracking-normal bnr-bg-darkblue bnr-fg-white">
     <!--Hero-->
-    <div class="pt-24">
-      <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-        <div class="w-full justify-center items-start text-center">
-          <h1 class="my-4 text-5xl font-bold leading-tight">
-            Block'n'Roll
+    <div class="p-3 bnr-bg-gradient">
+    </div>
+    <div class="pt-16 mb-28">
+      <div class="container flex flex-col flex-wrap items-center px-3 mx-auto md:flex-row">
+        <div class="w-full text-center place-content-center">
+          <img class="mx-auto h-80" style="max-height: 400px" src="static/img/logo.png" />
+        </div>
+        <div class="items-start justify-center w-full text-center">
+          <h2 class="my-0 text-4xl font-semibold leading-tight">
+            block 'n' roll
+          </h2>
+          <h1 class="text-5xl leading-normal uppercase font-extralight">
+            cardano stake pool
           </h1>
-          <p class="leading-normal text-2xl mb-8">
-            the rocking cardano stake pool
-          </p>
         </div>
       </div>
     </div>
-    <section class="bg-white border-b py-8">
-      <!-- <div class="container mx&#45;auto flex flex&#45;wrap pt&#45;4 pb&#45;12"> -->
-      <div class="container mx-auto flex flex-wrap pt-4 pb-12">
-        <div class="mx-auto grid grid-cols-2 gap-4 bnr-fg-darkblue">
+    <section class="mb-16">
+      <div class="container flex flex-wrap max-w-lg mx-auto bnr-border-gradient">
+        <div class="m-6 grid grid-cols-2 gap-4">
+          <div class="mx-auto text-2xl font-semibold uppercase col-span-2">INFO</div>
           <div class="font-bold">Ticker:</div>
           <div class="">BNR</div>
-          <div class="font-bold">Pool ID:</div>
-          <div class="">pending</div>
+          <div class="font-bold">Pool ID (Hex):</div>
+          <div class="" alt="">
+            <div>8139fa...05bd94</div>
+            <div class="text-xs break-words text-opacity-50">8139fa7f71f09e525a2462a253b6131795418fd90c2d0234d805bd94</div>
+          </div>
         </div>
       </div>
     </section>
+    <section class="flex-grow">
+      <div class="container flex flex-wrap max-w-lg mx-auto bnr-border-gradient">
+        <div class="m-6 mx-auto text-center">
+          <div class="font-semibold">We just started our pool, epoch 248.</div>
+          <div class="font-semibold">Stay tuned, we will add more info.</div>
+        </div>
+      </div>
+    </section>
+    <footer class="p-3 mt-6 bnr-bg-gradient"></footer>
   </body>
 </html>
 
