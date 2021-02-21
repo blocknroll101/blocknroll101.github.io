@@ -35,8 +35,8 @@
       </div>
     </div>
     <section class="mb-20">
-      <div class="container flex flex-row flex-wrap max-w-lg mx-auto">
-        <div class="flex-grow font-bold bnr-border-gradient">
+      <div class="container flex flex-col flex-wrap max-w-lg px-4 mx-auto xs:flex-row">
+        <div class="font-bold bnr-border-gradient">
           <div class="p-6 mx-auto text-center">
             <div class="uppercase font-extralight">Ticker</div>
             <div class="text-3xl font-semibold">
@@ -44,7 +44,7 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-row flex-grow ml-4 font-bold bnr-border-gradient">
+        <div class="flex flex-row flex-grow mt-4 font-bold xs:mt-0 xs:ml-4 bnr-border-gradient">
           <div class="p-6 mx-auto text-center">
             <div class="uppercase font-extralight">Pledge</div>
             <div class="text-3xl font-semibold">600k ₳</div>
@@ -55,15 +55,15 @@
           </div>
         </div>
       </div>
-      <div class="container flex flex-row flex-wrap max-w-lg mx-auto mt-4">
-        <div class="flex-grow mr-4 font-bold bnr-border-gradient">
+      <div class="container flex flex-col flex-wrap max-w-lg px-4 mx-auto mt-4 xs:flex-row">
+        <div class="flex-grow mr-0 font-bold xs:mr-4 bnr-border-gradient">
           <div class="p-6 mx-auto text-center">
             <div class="uppercase font-extralight">Fixed Fee</div>
             <div class="text-3xl font-semibold">340₳</div>
             <div class="uppercase font-extralight">(minimum)</div>
           </div>
         </div>
-        <div class="flex-grow font-bold bnr-border-gradient">
+        <div class="flex-grow mt-4 font-bold bnr-border-gradient xs:mt-0">
           <div class="p-6 mx-auto text-center">
             <div class="uppercase font-extralight">Fee</div>
             <div class="text-4xl font-semibold">1%</div>
@@ -72,34 +72,38 @@
       </div>
     </section>
     <section class="mb-16">
-      <div class="container flex flex-wrap max-w-lg mx-auto bnr-border-gradient">
-        <div class="m-6 grid grid-cols-3 gap-4">
-          <div class="mx-auto text-2xl font-semibold uppercase col-span-3">Info</div>
-          <div class="font-bold">Pool ID (Hex):</div>
-          <div class="col-span-2" alt="">
-            <a href="https://adapools.org/pool/8139fa7f71f09e525a2462a253b6131795418fd90c2d0234d805bd94">
-              <div>8139fa...05bd94</div>
-              <div class="text-xs break-words text-opacity-50">8139fa7f71f09e525a2462a253b6131795418fd90c2d0234d805bd94</div>
-            </a>
-          </div>
-          <div class="font-bold">Statistics:</div>
-          <div class="col-span-2">
-            <div><a href="https://adapools.org/pool/8139fa7f71f09e525a2462a253b6131795418fd90c2d0234d805bd94">adapools.org</a></div>
-            <div><a href="https://pooltool.io/pool/8139fa7f71f09e525a2462a253b6131795418fd90c2d0234d805bd94/epochs">pooltool.io</a></div>
+      <div class="container flex flex-wrap max-w-lg px-4 mx-auto">
+        <div class="bnr-border-gradient">
+          <div class="p-6 grid grid-cols-3 gap-4">
+            <div class="mx-auto text-2xl font-semibold uppercase col-span-3">Pool Data</div>
+            <div class="font-bold">Pool ID (Hex):</div>
+            <div class="col-span-2" alt="">
+              <a href="https://adapools.org/pool/8139fa7f71f09e525a2462a253b6131795418fd90c2d0234d805bd94">
+                <div>8139fa...05bd94</div>
+                <div class="text-xs break-words text-opacity-50">8139fa7f71f09e525a2462a253b6131795418fd90c2d0234d805bd94</div>
+              </a>
+            </div>
+            <div class="font-bold">Statistics:</div>
+            <div class="col-span-2">
+              <div><a href="https://adapools.org/pool/8139fa7f71f09e525a2462a253b6131795418fd90c2d0234d805bd94">adapools.org</a></div>
+              <div><a href="https://pooltool.io/pool/8139fa7f71f09e525a2462a253b6131795418fd90c2d0234d805bd94/epochs">pooltool.io</a></div>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <section class="flex-grow mb-16">
-      <div class="container flex flex-wrap max-w-lg mx-auto bnr-border-gradient">
-        <div class="m-6">
-          <div class="pb-4 mx-auto text-2xl font-semibold text-center uppercase">General News</div>
-          <ul class="mx-6 list-disc list-outside">
-            <li class="">We just started our pool, epoch 248.</li>
-            <li class="">First rewards may happen in epoch 251 (March 6)</li>
-            <li class="">We are only a small pool for now, so chances for getting rewards are not big (yet).</li>
-            <li class="">We, obviously, not only love tech, but also music - so maybe listen to the sound with us.</li>
-          </ul>
+      <div class="container flex flex-wrap max-w-lg px-4 mx-auto">
+        <div class="bnr-border-gradient">
+          <div class="m-6">
+            <div class="pb-4 mx-auto text-2xl font-semibold text-center uppercase">Info</div>
+            <ul class="mx-6 list-disc list-outside">
+              <li class="">We just started our pool, epoch 248.</li>
+              <li class="">First rewards may happen in epoch 251 (March 6)</li>
+              <li class="">We are only a small pool for now, so chances for getting rewards are not big (yet).</li>
+              <li class="">We, obviously, not only love tech, but also music - so maybe listen to the sound with us.</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
